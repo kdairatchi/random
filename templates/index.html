@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <title>Job Listings</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Cybersecurity Internship Jobs</h1>
+        <ul class="list-group">
+            {% for job in jobs %}
+            <li class="list-group-item">
+                <h5>{{ job.title }} at {{ job.company }}</h5>
+                <p>{{ job.summary }}</p>
+                <a href="{{ job.link }}" class="btn btn-primary">Apply Now</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
