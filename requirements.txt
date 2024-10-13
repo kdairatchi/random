@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+nltk
+flask
+schedule
+telegram
+slack_sdk
+twilio
+smtplib
