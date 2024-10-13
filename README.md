@@ -1,4 +1,4 @@
-'''bash
+'''
 pip install requests beautifulsoup4 nltk flask schedule telegram slack_sdk twilio
 
 pip install openai logging beautifulsoup4 requests nltk
