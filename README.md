@@ -1,7 +1,6 @@
 """
 pip install requests beautifulsoup4 nltk flask schedule telegram slack_sdk twilio
 """
-README.md
 
 # ![AI-Powered Job Scraper](banner.png)
 
