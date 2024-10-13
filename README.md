@@ -35,8 +35,8 @@ Built with 🛠️ by **kdairatchi**.
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/your-username/job-scraper.git
-cd job-scraper
+git clone https://github.com/kdairatchi/random.git
+cd random
 
 2. Install Dependencies
 
