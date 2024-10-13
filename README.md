@@ -1,29 +1,6 @@
 """
 pip install requests beautifulsoup4 nltk flask schedule telegram slack_sdk twilio
 """
-# ![AI-Powered Job Scraper](banner.png)
-
-Here’s how to create a good-looking GitHub repository for your job scraper project. I’ll guide you through structuring the repository, adding a README file with color and a banner, and ensuring it looks professional. Below are the steps you can follow.
-
-Step 1: Create a New GitHub Repository
-
-	1.	Go to GitHub and log in to your account.
-	2.	Click on the New Repository button.
-	3.	Name your repository (e.g., job-scraper).
-	4.	Set the repository to Public.
-	5.	Initialize it with a README.md file and a .gitignore for Python.
-	6.	Click Create repository.
-
-Step 2: Add a Banner Image
-
-	•	Create a banner (1200x300 pixels or similar) using any graphic design tool (Canva, Photoshop, etc.). This banner can have a title like “AI-Powered Job Scraper” and your name as “By kdairatchi.”
-	•	Save the image as banner.png.
-	•	Upload the banner.png to your GitHub repository.
-
-Step 3: Write the README.md File
-
-Below is an example README.md file with markdown styling, a banner image, badges for dependencies and Python version, and rich formatting.
-
 README.md
 
 # ![AI-Powered Job Scraper](banner.png)
@@ -58,7 +35,7 @@ Built with 🛠️ by **kdairatchi**.
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/your-kdairatchi/job-scraper.git
+git clone https://github.com/your-username/job-scraper.git
 cd job-scraper
 
 2. Install Dependencies
@@ -152,4 +129,3 @@ TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE_NUMBER=your_twilio_phone_number
 EMAIL_ADDRESS=your_email_address
 EMAIL_PASSWORD=your_email_password
-
